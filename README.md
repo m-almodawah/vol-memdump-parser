@@ -42,7 +42,6 @@ Payload:<br />
 ................<br />
 <br />
 Supported functions for each memory segment:<br />
-<br />
 get_virtual_address()<br />
 get_physical_address()<br />
 get_segment_size()<br />
