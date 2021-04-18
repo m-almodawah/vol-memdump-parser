@@ -27,22 +27,21 @@ Check test.py for a code sample. The sample will produce an output similar to th
 <br /><br />
 Output:
 ```
-Virtual Address: 0x00000056bee28000<br />
-Physical Address: 0x000000000c70c000<br />
-Size: 0x1000<br />
-Dump File Offset: 0x17000<br />
-Payload:<br />
-00 00 00 00 00 00 00 00 00 00 c8 c4 56 00 00 00<br />
-00 c0 c6 c4 56 00 00 00 00 00 00 00 00 00 00 00<br />
-00 1e 00 00 00 00 00 00 00 00 00 00 00 00 00 00<br />
-00 80 e2 be 56 00 00 00 00 00 00 00 00 00 00 00<br />
-54 1e 00 00 00 00 00 00 e8 45 00 00 00 00 00 00<br />
-00 00 00 00 00 00 00 00 a0 7f b6 fc 37 02 00 00<br />
-00 20 e3 be 56 00 00 00 e5 03 00 00 00 00 00 00<br />
-................<br />
-................<br />
-................<br />
-<br />
+Virtual Address: 0x00000056bee28000
+Physical Address: 0x000000000c70c000
+Size: 0x1000
+Dump File Offset: 0x17000
+Payload:
+00 00 00 00 00 00 00 00 00 00 c8 c4 56 00 00 00
+00 c0 c6 c4 56 00 00 00 00 00 00 00 00 00 00 00
+00 1e 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 80 e2 be 56 00 00 00 00 00 00 00 00 00 00 00
+54 1e 00 00 00 00 00 00 e8 45 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 a0 7f b6 fc 37 02 00 00
+00 20 e3 be 56 00 00 00 e5 03 00 00 00 00 00 00
+................
+................
+................
 ```
 Supported functions for each memory segment:<br />
 get_virtual_address()<br />
