@@ -25,6 +25,8 @@ This will produce memmap.txt file describing every memory segment allocated to t
 <br/>Finally, use both files to create an object of the VolMemdumpParser class which will allow you to interact with every memory segment individually.
 Check test.py for a code sample. The sample will produce an output similar to the output below:
 <br /><br />
+Output:<br/>
+```
 Virtual Address: 0x00000056bee28000<br />
 Physical Address: 0x000000000c70c000<br />
 Size: 0x1000<br />
@@ -41,6 +43,7 @@ Payload:<br />
 ................<br />
 ................<br />
 <br />
+```
 Supported functions for each memory segment:<br />
 get_virtual_address()<br />
 get_physical_address()<br />
