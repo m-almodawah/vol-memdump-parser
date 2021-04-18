@@ -18,12 +18,12 @@ Usage:<br />
 Let's say that you have a memroy dump file of a Windows 10 machine named pcdump.dump and you want to analyze memory segments allocated to the process with the PID 1234.
 First, you need to dump process memory by running:<br /><br />
 ```
-volatility -f pcdump.dump --profile=Win10x64 -p 1234 memdump --dump-dir ./<br /><br />
+volatility -f pcdump.dump --profile=Win10x64 -p 1234 memdump --dump-dir ./
 ```
 This will produce a process memory dump file.
 Next you need to run:<br /><br />
 ```
-volatility -f pcdump.dump --profile=Win10x64 memmap 1234 > memmap.txt <br /><br />
+volatility -f pcdump.dump --profile=Win10x64 memmap 1234 > memmap.txt
 ```
 This will produce memmap.txt file describing every memory segment allocated to the process.
 <br/>Finally, use both files to create an object of the VolMemdumpParser class which will allow you to interact with every memory segment individually.
