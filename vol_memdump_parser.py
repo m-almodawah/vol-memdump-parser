@@ -12,7 +12,7 @@
 #   memory map file created by the "memmap" option and provides an easy way to interact
 #   with every memory segment individualy.
 #
-#   Tested on Volatility 2.6
+#   Tested on Volatility 2.6 but should also work on Volatility 3
 #
 #   Check test.py for a code sample using this library
 #
