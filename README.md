@@ -72,10 +72,21 @@ Payload:
 ................
 ```
 Supported functions for each memory segment:<br />
-get_virtual_address()<br />
-get_physical_address()<br />
-get_segment_size()<br />
-get_dump_file_offset()<br />
-get_segment_payload() #returns the memory segment payload as a byte array<br />
-beautify_payload_hex() #returns the memory segment payload as a nice hex string<br />
-dump_segment() #Prints all information related to a memory segment<br />
+```
+get_virtual_address()
+
+get_physical_address()
+
+get_segment_size()
+
+get_dump_file_offset()
+
+#returns the memory segment payload as a byte array
+get_segment_payload()
+
+#returns the memory segment payload as a nice hex string
+beautify_payload_hex() 
+
+#Prints all information related to a memory segment
+dump_segment()
+```
