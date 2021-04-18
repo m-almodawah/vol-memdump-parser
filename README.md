@@ -13,7 +13,7 @@ memory map file created by the "memmap" option and provides an easy way to inter
 with every memory segment individually.
 <br />
 Tested on Volatility 2.6
-<br />
+<br /><br />
 Usage:<br />
 Let's say that you have a memroy dump file of a Windows 10 machine named pcdump.dump and you want to analyze memory segments allocated to the process with the PID 1234.
 First, you need to dump process memory by running:<br />
@@ -24,7 +24,7 @@ volatility -f pcdump.dump --profile=Win10x64 memmap 1234 > memmap.txt <br />
 This will produce memmap.txt describing every memory segment allocated to the process with the PID 1234
 Finally, use both files to create an object of the library which will allow you to interact with every memory segment individually.
 Check test.py for a code sample. The sample will produce the below output:
-<br />
+<br /><br />
 Virtual Address: 0x00000056bee28000<br />
 Physical Address: 0x000000000c70c000<br />
 Size: 0x1000<br />
