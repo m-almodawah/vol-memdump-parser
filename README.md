@@ -4,7 +4,7 @@ Author: Mohammed Almodawah<br />
 Date: 18/4/2020<br />
 version: v 1.0<br />
 
-Description:
+Description:<br />
 This library provides an easy way to parse memory segments dumped by Volatility.
 Volatility enables users to dump allocated memory of a given process by concatenating
 all memory segments into a single bulky file.
