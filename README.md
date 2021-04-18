@@ -11,7 +11,7 @@ all memory segments into a single bulky file.
 This library takes the memory dump file created by the "memdump" option and the
 memory map file created by the "memmap" option and provides an easy way to interact
 with every memory segment individually.
-<br />
+<br /><br />
 Tested on Volatility 2.6
 <br /><br />
 Usage:<br />
