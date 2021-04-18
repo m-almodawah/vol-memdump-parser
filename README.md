@@ -2,7 +2,7 @@
 
 Author: Mohammed Almodawah<br />
 Date: 18/4/2020<br />
-version: v 1.0<br />
+Version: v 1.0<br />
 
 Description:<br />
 This library provides an easy way to parse memory segments dumped by Volatility.
