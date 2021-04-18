@@ -12,7 +12,7 @@ This library takes the memory dump file created by the "memdump" option and the
 memory map file created by the "memmap" option and provides an easy way to interact
 with every memory segment individually.
 <br /><br />
-Tested on Volatility 2.6
+Tested on Volatility 2.6 but should also work on Volatility 3
 <br /><br />
 Usage:<br />
 Let's say that you have a memroy dump file of a Windows 10 machine named pcdump.dump and you want to analyze memory segments allocated to the process with the PID 1234.
